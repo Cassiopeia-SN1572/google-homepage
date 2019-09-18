@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+}
+
+.topnav {
+  position: relative;
+  left: 38%;
+  top: 0%;
+  width: 100%;
+
+}
+
+.logo {
+  position: absolute;
+  left: 20%;
+  top: 150%;
+  width: 100%;
+  font-size: 18px;
+  z-index: -1;
+}
+
+.form {
+  position: absolute;
+  top: 1800%;
+  left: 40%;
+}
+
+.buttons {
+  position: absolute;
+  top: 2000%;
+  left: 36%;
+}
+
+.footer {
+  position: absolute;
+  height: 40px;
+  background: purple;
+  bottom: 0%;
+}
