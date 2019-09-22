@@ -1,39 +1,69 @@
-.container {
-  position: relative;
+.container-1 {
+  display: flex;
+  flex-direction: column;
 }
 
-.topnav {
-  position: relative;
-  left: 38%;
-  top: 0%;
-  width: 100%;
-
+.navContainer {
+  max-width: 1400px;
+  margin: 10 px auto 0 auto;
+  padding: 10 px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.logo {
-  position: absolute;
-  left: 20%;
-  top: 150%;
-  width: 100%;
-  font-size: 18px;
-  z-index: -1;
+.navBox1 {
+  flex-box: 1;
 }
 
-.form {
-  position: absolute;
-  top: 1800%;
-  left: 40%;
+.navBox2 {
+  flex-box: 1;
 }
 
-.buttons {
-  position: absolute;
-  top: 2000%;
-  left: 36%;
+.navBox3 {
+  flex-box: 1;
 }
 
-.footer {
-  position: absolute;
-  height: 40px;
-  background: purple;
-  bottom: 0%;
+.navBox4 {
+  flex-box: 1;
+}
+
+/* logo */
+.child2 {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* form */
+.child3 {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+/* buttons */
+.child4 {
+  max-width: 1400px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1 {
+  padding: 10px;
+  display: flex;
+}
+
+.button2 {
+  padding: 10px;
+  display: flex;
+}
+
+/* footer */
+.child5 {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  display: flex;
 }
